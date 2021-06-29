@@ -72,7 +72,6 @@ public class EmployeeManager {
         System.out.println("a.NV đào tạo" + "\n" + "b.NV tuyển sinh");
         String choose = sc.nextLine();
         if (choose.equals("a")) {
-//            arr.remove(searchName());
             System.out.print("nhập tên cần xóa: ");
             StaffEducate staffEducate = (StaffEducate) searchName();
             arr.remove(staffEducate);
